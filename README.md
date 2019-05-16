@@ -1,0 +1,3 @@
+Example base for any protractor project with TypeScript
+
+List of steps to create...
