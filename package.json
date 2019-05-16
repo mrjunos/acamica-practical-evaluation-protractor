@@ -1,0 +1,25 @@
+{
+  "name": "poc",
+  "version": "1.0.0",
+  "description": "Example base for any protractor project with TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "pretest": "npm run tsc",
+    "test": "protractor compiledJs/conf.js"
+  },
+  "author": "MrJunos",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jasmine": "^3.3.12",
+    "@types/node": "^12.0.2",
+    "concurrently": "^4.1.0",
+    "lite-server": "^2.4.0",
+    "protractor": "^5.4.2",
+    "typescript": "^3.4.5"
+  },
+  "devDependencies": {
+    "@types/jasminewd2": "^2.0.6",
+    "ts-node": "^8.1.0"
+  }
+}
