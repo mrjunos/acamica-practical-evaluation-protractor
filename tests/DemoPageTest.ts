@@ -1,14 +1,12 @@
-import { DemoPageServices } from '../page_objects/DemoPage/DemoPageServices'
+import { HomePageServices } from '../page_objects/HomePage/HomePageServices'
 
-describe('DemoPage Login', () => {
+describe('HomePage Login', () => {
 
-    it('User should be able to log in', () => {
+    it('User should be able to type a place', () => {
 
-        let demoPageServices = new DemoPageServices()
-        demoPageServices.get();
-        demoPageServices.writeEmail("example@email.com");
-        demoPageServices.writePass("examplePassword123");
-        demoPageServices.clickOnEnter();
+        let homePageServices = new HomePageServices()
+        homePageServices.get();
+        homePageServices.writePlace("Argentina");
         
     })
     
